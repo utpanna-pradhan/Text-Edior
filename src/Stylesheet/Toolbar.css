@@ -1,0 +1,35 @@
+.editor-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .toolbar {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .toolbar button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .toolbar button:hover {
+    background-color: #666;
+  }
+  
+  .text-area {
+    min-height: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 18px;
+    background: white;
+    border-radius: 5px;
+  }
+  
