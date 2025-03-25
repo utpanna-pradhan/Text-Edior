@@ -30,7 +30,7 @@ const Navbar = () => {
           to="/" 
           onClick={closeNav}
         >
-          My React Editor
+        Text Editor
         </Link>
         
         {/* Mobile Toggle Button */}

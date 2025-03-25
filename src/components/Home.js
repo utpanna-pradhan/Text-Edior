@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Textarea from './Textarea';
+import Toolbar from './Toolbar';
 
 function Home() {
   return (
     <div className=' home_page'>
       
-      <Textarea />
+      <Toolbar />
     </div>
   )
 }
