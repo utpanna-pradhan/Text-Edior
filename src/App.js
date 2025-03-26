@@ -5,6 +5,7 @@ import Home from './components/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import Home from './pages/Home';
 import Navbar from './components/Navbar';
+import Comment from './components/Comment';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           
           </Routes>
         </div>
+        <Comment />
       </div>
     </Router>
     </div>
