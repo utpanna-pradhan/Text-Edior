@@ -1,10 +1,10 @@
 import React from 'react';
-import {useRef, useState} from 'react';
+// import {useRef, useState} from 'react';
 import Fontstyle from './Fontstyle';
 import Fontsize from './Fontsize';
 
 function Toolbar() {
-  const editorRef = useRef(null);
+  // const editorRef = useRef(null);
     
    
   return (
@@ -12,7 +12,7 @@ function Toolbar() {
        <Fontstyle />
        <Fontsize />
       {/* Editable Div */}
-      <div
+      {/* <div
         ref={editorRef}
         contentEditable
         style={{
@@ -23,7 +23,7 @@ function Toolbar() {
         }}
       >
         Select some text and change the font using the dropdown above!
-      </div>
+      </div> */}
     </div>
   )
 }
